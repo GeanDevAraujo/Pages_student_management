@@ -1,0 +1,68 @@
+* {
+    background-color: rgb(14, 73, 14);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imagem {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 50px;
+
+}
+
+.conteudo {
+    display: inline-block;
+
+}
+
+form,
+h2,
+input[type="submit"],
+input[type="password"],
+input[type="text"] {
+    background-color: rgb(103, 181, 121);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2,
+input {
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: block;
+    color: white;
+    margin: 10px;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+input[type="submit"] {
+    border: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    text-align: start;
+}
+
+.in_personalizado {
+    border: 2px white solid;
+
+}
+
+.submit_botton:hover {
+color: rgb(51, 120, 51);
+}
+
+h2,
+input[type="submit"] {
+
+    text-align: center;
+    margin: 0 auto;
+}
